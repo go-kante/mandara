@@ -1,7 +1,6 @@
 {
   "type": "service_account",
   "project_id": "focus-empire-461908-m6",
-  "private_key_id": "c31b39398bd612d6d27f3640d20928ad3f536209",
   "client_email": "id-654@focus-empire-461908-m6.iam.gserviceaccount.com",
   "client_id": "100356774001173979910",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
