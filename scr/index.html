@@ -4,25 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <header>
     <a href=""class="top">＜top画面</a>
 </header>
 <body>
-    <div class="title">
-        <h2 class="fas fa-bullseye mr-3">マンダラチャート作成ツール</h2>
-    </div>    
-    <div class="goal">
-        <th>
-            <p>目標を設定</p>
-            <form action="/index.php" method="post">
-                <input type="text" name="goal"placeholder="例：フルスタックエンジニアになる">
-                <input type="button" name="submit" value="決定" style="margin-top: 10px;">
-            </form>
-        </th>   
-    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-6">
+            <div class="mb-3">
+                <label class="form-label fw-semibold">目標</label>
+                <input type="text" class="form-control form-control-lg border-0 shadow-sm">
+              </div>
+              
+          </div>
+        </div>
+      </div>
 </body>
 </html>
