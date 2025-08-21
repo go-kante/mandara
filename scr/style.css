@@ -7,14 +7,52 @@
   }
 
 .goal {
-  
-  background-color: #f0f0f0;
+  background-color: #fdfdfd;
   border: 1px solid #070000;
   padding: 20px;
   box-sizing: border-box;
-  box-shadow: 4px 4px;
+  box-shadow: 4px 4px #7a7b7d;
   justify-content: center;
+  margin: 10px 150px auto;
 }
+
+.goal p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+.goal input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.goal input[type="button"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #a7a8a7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.goal input[type="button"]:hover {
+  background-color: #494a49;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.title {
+  text-align: center;
+  margin: 20px 0;  
+    font-size: 24px;   
+    font-weight: bold;
+    color: #333;
+}   
 
     * {
         font-family: 'Noto Sans JP', sans-serif;
